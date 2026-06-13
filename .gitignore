@@ -1,0 +1,19 @@
+# Python clutter
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDEs and OS clutter
+.vscode/
+.idea/
+.DS_Store
+
+# RL/ML specific: TensorBoard logs or heavy model checkpoints
+logs/
+checkpoints/
+*.pth
+*.pkl
